@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 4px 2px #a7a3a38c;
+    padding: 10px;
+    min-width: 240px;
+    max-width: 300px;
+}
+
+.form button {
+    display: block;
+    margin: 10px auto 0 auto;
+    outline: none;
+    background: #FFFFFF;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px #a7a3a38c;
+}
+
+.form button:active {
+    box-shadow: inset 2px 2px 4px 2px #a7a3a38c;
+}
+
+.input {
+    display: block;
+    padding: 5px 0;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    font-weight: bold;
+    font-size: .8rem;
+    opacity: 0.5;
+}
+
+
+.input > input {
+    display: block;
+    right: 0;
+    width: 100%;
+    font-size: .8rem;
+    outline: none;
+    padding: 5px 7px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    box-shadow: inset 2px 2px 4px 2px #a7a3a38c;
+}
+
+.input > span {
+    margin-left: 15px;
+    color: #f44336;
+}
+
+.active {
+    opacity: 1;
+}
+
+.input-valid {
+    border: 2px solid #4caf50 !important;
+}
+
+.input-invalid {
+    border: 2px solid #f44336 !important;
+}
